@@ -13,17 +13,6 @@ var post_data = {
 
 console.log(post_data);
 
-var post_options = {
-	host: 'api.medium.com',
-	port: '443',
-	path: 'v1/users/' + userId + '/posts',
-	method: 'POST',
-	headers: {
-		'Authorization': 'Bearer ' + token,
-		'content-type': 'application/json'
-	}
-};
-
 console.log('Sending the post request...');
 
 // Set up the request
