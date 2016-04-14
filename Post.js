@@ -7,7 +7,7 @@ var post_data = {
 	'title' : 'Post title',
 	'contentFormat' : 'html',
 	'content': '<p>Test HTML post</p>',
-	'canonicalUrl': 'https://Original-Url',
+	'canonicalUrl': 'https://Original-Url', //this one is important to avoid SEO issues
 	'publishStatus': 'draft'
 };
 
